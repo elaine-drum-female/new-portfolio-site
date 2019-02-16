@@ -19,10 +19,11 @@ body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
-a, a:hover {
-    color:#fff;
+a,
+a:hover {
+    color: #fff;
     text-decoration: none;
-    outline:none;
+    outline: none;
 }
 
 h1,
@@ -52,4 +53,48 @@ h3 {
 
 .padding {
     padding: 30px 20px;
+}
+
+/*****************
+NAVBAR STYLES
+*******************/
+
+.full-bar {
+    position:relative;
+    top:0;
+    left:0;
+    background:#fff;
+    width:100%;
+    height:60px;
+    transition: .3s;
+    z-index:10;
+}
+
+.full-bar.fixed {
+    position:fixed;
+}
+
+.full-bar.white {
+    background:fff;
+    color:#fff;
+    height: height;
+}
+
+.full-bar .my-color-brand {
+    transition:.3s;
+}
+
+.full-bar ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    background:#fff;
+}
+
+.navbar nav {
+    overflow: visible;
+}
+
+.firstname-bold {
+    font-weight: 900;
 }
