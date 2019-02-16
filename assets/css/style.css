@@ -409,3 +409,87 @@ CONTACT STYLES
 .card-body {
     padding:2.25rem;
 }
+
+@media (min-width: 768px) {
+
+    h2 {
+        text-align:center;
+    }
+
+   
+
+    .full-bar.black {
+        height: height;
+    }
+
+    .hero-intro {
+        top:250px;
+        font-size:1.3em;
+    }
+
+    /* .hero-intro h1 {
+        font-size: 4.2em;
+    } */
+
+    #about-me img {
+        padding:0 60px;
+    }
+    
+    #about-me p {
+      text-align:justify;
+      padding: 0 4px;
+    }
+
+    #my-skills p {
+        text-align:center;
+    }
+
+    #portfolio h3 {
+        text-align:center;
+    }
+
+
+    #group-projects p.card-text {
+        margin-bottom:20px;
+        padding: 0 10px;
+    }
+
+    a.my-card-link {
+        margin-left:0!important;
+    }
+
+    .more-info {
+        text-align:center;
+        margin:0 auto;
+    }
+
+    .more-info p {
+       margin-bottom:20px;
+    }
+
+    #contact p {
+        text-align:center;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+
+.full-bar {
+    height:51px;
+} 
+
+.hero-intro h1 {
+    font-size: 4.5em;
+}
+
+.hero-intro span {
+    font-size: 1.3em;
+}
+
+#about-me p {
+    padding: 40px 40px;
+}
+
+}
