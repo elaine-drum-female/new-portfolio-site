@@ -373,3 +373,39 @@ button.accordion.is-open:after {
 .hidden-portfolios {
     display:none;
 }
+
+/*****************
+GROUP PROJECTS STYLES
+*******************/
+#group-projects a {
+    color:#404040;
+}
+
+
+/*****************
+CONTACT STYLES
+*******************/
+
+#contact {
+    background: linear-gradient(160deg, #C0C0C0,
+        #404040 95%, white 80%);
+}
+
+#contact p {
+    color:#fff;
+    margin-bottom:10px;
+}
+
+#contact a {
+    text-decoration:none;
+    outline:none;
+}
+
+#contact a:hover {
+    color:#000;
+    text-decoration:none;
+}
+
+.card-body {
+    padding:2.25rem;
+}
