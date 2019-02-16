@@ -374,6 +374,10 @@ button.accordion.is-open:after {
     display:none;
 }
 
+#portfolio .card-body {
+    text-align:left;
+}
+
 /*****************
 GROUP PROJECTS STYLES
 *******************/
@@ -448,6 +452,11 @@ CONTACT STYLES
     }
 
     #portfolio h3 {
+        text-align:center;
+    }
+
+    #portfolio .card-body,
+    #group-projects .card-body {
         text-align:center;
     }
 
