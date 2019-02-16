@@ -385,6 +385,10 @@ GROUP PROJECTS STYLES
     color:#404040;
 }
 
+#group-projects p {
+    margin-bottom:10px;
+}
+
 #group-projects .my-card {
     margin-bottom:20px;
 }
