@@ -381,6 +381,9 @@ GROUP PROJECTS STYLES
     color:#404040;
 }
 
+#group-projects .my-card {
+    margin-bottom:20px;
+}
 
 /*****************
 CONTACT STYLES
