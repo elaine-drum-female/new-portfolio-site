@@ -17,5 +17,10 @@ $(document).ready(function () {
     });
 
 
+    $(document).on('click', '.nav-icons',function(e){
+        if($(e.target).is('a')) {
+            $('.navbar-collapse.collapse.show').collapse('hide');
+        }
+    });
 
 });
