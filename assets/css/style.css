@@ -55,6 +55,10 @@ h3 {
     padding: 30px 20px;
 }
 
+img {
+    width:100%;
+}
+
 /*****************
 NAVBAR STYLES
 *******************/
@@ -310,51 +314,6 @@ PORTFOLIO STYLES
     list-style: none;
 }
 
-button.accordion {
-    background-color:#C0C0C0;
-    padding: 12px 20px;
-    color: #fff;
-    position: relative;
-    text-align: left;
-    font-size:18px;
-    outline: none;
-    width: 100%;
-    cursor: pointer;
-    transition:background-color 0.2s linear;
-}
-
-button.accordion:hover {
-    background:#404040;
-}
-
-button.accordion i {
-    margin-right: 10px;
-}
-
-button.accordion:after {
-    content:'+';
-    font-size:14px;
-    float:right;
-}
-
-button.accordion.is-open:after {
-    content:'-';
-    float:right;
-    font-size:14px;
-}
-
-
-.accordion-content {
-    margin-top: 10px;
-    padding: 0 20px;
-    color: #000;
-    max-height: 0;
-    overflow: hidden;
-}
-
-.portfolio-test img {
-    width:100%;
-}
 
 #main-btn-container {
     width:100%;
@@ -371,6 +330,7 @@ button.accordion.is-open:after {
     color:#fff;
     text-align:center;
 }
+
 
 .hidden-portfolios {
     display:none;
