@@ -56,7 +56,7 @@ h3 {
 }
 
 img {
-    width:100%;
+    width: 100%;
 }
 
 /*****************
@@ -136,7 +136,7 @@ HERO STYLES
     width: 100%;
     color: #fff;
     text-align: center;
-    left:0%;
+    left: 0%;
 }
 
 .hero-intro h1 {
@@ -177,7 +177,7 @@ ABOUT ME STYLES
 }
 
 #about-me img {
-    max-width: 400px;
+    /* max-width: 400px; */
     width: 100%;
     border-radius: 100%;
     padding: 20px 90px;
@@ -294,16 +294,16 @@ PORTFOLIO STYLES
 }
 
 #portfolio {
-    padding:30px 20px;
-    background:#C0C0C0;
+    padding: 30px 20px;
+    background: #C0C0C0;
 }
 
 #portfolio p {
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 #portfolio a {
-    color:white!important;
+    color: white !important;
 }
 
 /*NEW ONES*/
@@ -316,43 +316,43 @@ PORTFOLIO STYLES
 
 
 #main-btn-container {
-    width:100%;
-    overflow:hidden;
+    width: 100%;
+    overflow: hidden;
 }
 
 .port-btn {
-    width:100px;
-    height:30px;
-    border-radius:4px;
-    background:silver;
-    margin-right:3px;
-    padding:10px;
-    color:#fff;
-    text-align:center;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    background: silver;
+    margin-right: 3px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
 }
 
 
 .hidden-portfolios {
-    display:none;
+    display: none;
 }
 
 #portfolio .card-body {
-    text-align:left;
+    text-align: left;
 }
 
 /*****************
 GROUP PROJECTS STYLES
 *******************/
 #group-projects a {
-    color:#404040;
+    color: #404040;
 }
 
 #group-projects p {
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 #group-projects .my-card {
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 /*****************
@@ -365,93 +365,82 @@ CONTACT STYLES
 }
 
 #contact p {
-    color:#fff;
-    margin-bottom:10px;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 #contact a {
-    text-decoration:none;
-    outline:none;
+    text-decoration: none;
+    outline: none;
 }
 
 #contact a:hover {
-    color:#000;
-    text-decoration:none;
+    color: #000;
+    text-decoration: none;
 }
 
 .card-body {
-    padding:2.25rem;
+    padding: 2.25rem;
 }
 
-@media (min-width: 576px) {
 
-    #about-me img {
-        padding: 20px 22px;
-    }
-}
 
 @media (min-width: 768px) {
 
     h2 {
-        text-align:center;
+        text-align: center;
     }
 
-   
 
     .full-bar.black {
         height: height;
     }
 
     .hero-intro {
-        top:250px;
-        font-size:1.3em;
+        top: 250px;
+        font-size: 1.3em;
     }
 
     #about-me img {
-        padding:0;
-    }
-    
-    #about-me p {
-      text-align:justify;
-      padding: 0 4px;
+        padding: 0;
     }
 
+
     #my-skills p {
-        text-align:center;
+        text-align: center;
     }
 
     #portfolio h3 {
-        text-align:center;
+        text-align: center;
     }
-    
-    
+
 
     #portfolio .card-body,
     #group-projects .card-body {
-        text-align:center;
+        text-align: center;
     }
 
 
     #group-projects p.card-text {
-        margin-bottom:20px;
+        margin-bottom: 20px;
         padding: 0 10px;
     }
 
     a.my-card-link {
-        margin-left:0!important;
+        margin-left: 0 !important;
     }
 
     .more-info {
-        text-align:center;
-        margin:0 auto;
+        text-align: center;
+        margin: 0 auto;
     }
 
     .more-info p {
-       margin-bottom:20px;
+        margin-bottom: 20px;
     }
 
     #contact p {
-        text-align:center;
+        text-align: center;
     }
 
     #group-projects {
@@ -463,20 +452,20 @@ CONTACT STYLES
 
 @media (min-width: 992px) {
 
-.full-bar {
-    height:51px;
-} 
+    .full-bar {
+        height: 51px;
+    }
 
-.hero-intro h1 {
-    font-size: 4.5em;
-}
+    .hero-intro h1 {
+        font-size: 4.5em;
+    }
 
-.hero-intro span {
-    font-size: 1.3em;
-}
+    .hero-intro span {
+        font-size: 1.3em;
+    }
 
-#about-me p {
-    padding: 10px 40px;
-}
+    #about-me p {
+        padding: 10px 40px;
+    }
 
 }
