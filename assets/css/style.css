@@ -383,7 +383,7 @@ CONTACT STYLES
 .fa-linkedin-in:before,
 .fa-github:before {
     font-size:24px;
-    padding: 0 15px;
+    padding:0 10px 0 0;
 }
 
 .fa-linkedin-in:hover,
@@ -392,13 +392,23 @@ CONTACT STYLES
 }
 
 #profile-icons {
-    text-align:center;
+    text-align:left;
     color:#fff;
 }
 
 
 
 @media (min-width: 768px) {
+
+    .fa-linkedin-in:before,
+    .fa-github:before {
+        padding:0 15px;
+    }
+
+    #profile-icons {
+        text-align:center;
+    }
+
 
     h2 {
         text-align: center;
