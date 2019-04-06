@@ -341,7 +341,7 @@ PORTFOLIO STYLES
 GROUP PROJECTS STYLES
 *******************/
 #group-projects a {
-    color: #404040;
+    color:#fff;
 }
 
 #group-projects p {
@@ -350,6 +350,7 @@ GROUP PROJECTS STYLES
 
 #group-projects .my-card {
     margin-bottom: 20px;
+  
 }
 
 /*****************
