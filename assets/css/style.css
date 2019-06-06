@@ -197,7 +197,6 @@ SKILLS STYLES
 
 #my-skills {
     background: #fff;
-    padding: 5% 10%;
 }
 
 #my-skills p {
@@ -216,6 +215,7 @@ h2.topic-header { font-weight:600;font-size:1.5rem; text-align:center;}
 
 #my-skills h4 {
     text-align:center;
+    
 }
 
 .skills-box {
@@ -455,9 +455,6 @@ CONTACT STYLES
         padding: 0;
     }
 
-    #my-skills {
-        padding-top:2.50%;
-    }
 
     #my-skills p {
         text-align: center;
