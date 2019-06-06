@@ -197,8 +197,7 @@ SKILLS STYLES
 
 #my-skills {
     background: #fff;
-    text-align:center;
-    padding: 3% 10%;
+    padding: 5% 10%;
 }
 
 #my-skills p {
@@ -207,11 +206,16 @@ SKILLS STYLES
 
 #my-skills h2 {
     margin-bottom:1%;
-    text-align:center;
 }
+
+h2.topic-header { font-weight:600;font-size:1.5rem; text-align:center;}
 
 #my-skills h3 {
     font-weight:300;
+}
+
+#my-skills h4 {
+    text-align:center;
 }
 
 .skills-box {
@@ -451,10 +455,15 @@ CONTACT STYLES
         padding: 0;
     }
 
+    #my-skills {
+        padding-top:2.50%;
+    }
 
     #my-skills p {
         text-align: center;
     }
+
+    h2.topic-header { text-align:left;}
 
     #portfolio h3 {
         text-align: center;
