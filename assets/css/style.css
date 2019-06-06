@@ -197,10 +197,35 @@ SKILLS STYLES
 
 #my-skills {
     background: #fff;
+    text-align:center;
+    padding: 3% 10%;
 }
 
 #my-skills p {
     margin-bottom: 20px;
+}
+
+#my-skills h2 {
+    margin-bottom:1%;
+    text-align:center;
+}
+
+#my-skills h3 {
+    font-weight:300;
+}
+
+.skills-box {
+    text-align:center;
+    padding:5%;
+}
+
+.mobile-float {
+    float:left;
+    margin-right: 3px;
+}
+
+.side-padding {
+    padding: 0 5%;
 }
 
 .myskillsbar {
@@ -303,7 +328,6 @@ PORTFOLIO STYLES
     color: white !important;
 }
 
-/*NEW ONES*/
 
 .menu {
     width: 100%;
@@ -436,6 +460,9 @@ CONTACT STYLES
         text-align: center;
     }
 
+    .mobile-float {
+        float:none;
+    }
 
     #portfolio .card-body,
     #group-projects .card-body {
